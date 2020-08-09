@@ -32,7 +32,7 @@ window.addEventListener("load", function() {
             alert("Please enter a valid amount.")
       } else {
          faultyItems.style.visibility = "visible";
-            
+         //corrected if, else if, and error messages   
          if(fuelLevelValue < 10000 && cargoMassValue > 10000) {
             pilotStatus.innerHTML = `Pilot ${pilotName.value} is ready.`;
             copilotStatus.innerHTML = `Copilot ${copilotName.value} is ready.`;
